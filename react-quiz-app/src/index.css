@@ -1,0 +1,89 @@
+:root{
+    --bg-color:#120B1E;
+}
+.App{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+body{
+    background-color:var(--bg-color);
+    /* background-color: ; */
+    /* text-align: center; */
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* background-color: red; */
+
+}
+.score{
+    font-weight: bold;
+}
+.StartBtn{
+   background-color: #0D0815;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    width:200px;
+    border-radius: 10px;
+    height: 50px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    transition: 200ms ease;
+    transition: 200ms ease;
+
+}
+
+.StartBtn:hover{
+    transition: 200ms ease;
+    transform: translateY(10px);
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.options > *{
+    background-color: #0D0815;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    width:200px;
+    border-radius: 10px;
+    height: 50px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    transition: 200ms ease;
+}
+
+.options >*:hover{
+    transition: 200ms ease;
+    transform: translateY(10px);
+}
+.options >*:disabled{
+    transition: 200ms ease;
+    background-color: white;
+    color: black;
+}
+
+.nextBtn{
+    background-color: #0D0815;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    width:200px;
+    border-radius: 10px;
+    height: 50px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    transition: 200ms ease;
+}
