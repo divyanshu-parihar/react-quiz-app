@@ -18,7 +18,6 @@ function App() {
   if(!prevScore){
     prevScore = '0'
   }
-  console.log(prevScore)
   // const [currQuestion, setCurrQuestion] = useState<Question | null>(null);
   const [questionIndex, setQuestionIndex] = useState<number>(0);
   const [gameOver, setGameOver] = useState<boolean>(true);
@@ -31,7 +30,6 @@ function App() {
     setQuestions(QuestionsData);
     // setCurrQuestion(QuestionsData[0])
     setQuestionIndex(0);
-    console.log(QuestionsData[0])
     setLoading(false)
   }
 
