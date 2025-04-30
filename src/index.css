@@ -1,6 +1,7 @@
 :root{
     --bg-color:#120B1E;
 }
+
 .App{
     /* background-color: red; */
     display: flex;
